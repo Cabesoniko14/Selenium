@@ -1,4 +1,4 @@
-name: selenium-chrome
+name: selenium
 channels:
   - conda-forge
 dependencies:
