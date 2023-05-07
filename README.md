@@ -49,6 +49,10 @@ Entra a Docker Desktop, y en el contenedor de Selenium, selecciona abrir la pág
 
 ### ARM64
 
+En caso de que quieras seguirlo con un video, te dejamos el siguiente link: https://www.youtube.com/watch?v=tJsNqDWweEc
+
+Si quieres seguirlo aquí, continúa leyendo.
+
 En esta carpeta, tenemos disponible un [environment.yml](environment.yml). Para tenerlo en tu computadora y poder correr los notebooks:
 
 **1. Descarga el repositorio**
