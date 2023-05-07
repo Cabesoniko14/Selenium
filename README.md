@@ -37,11 +37,11 @@ En el Dockerfile, asegúrate de tener los puertos de tu elección bien seleccion
 
 **3. Corre el Docker**
 
-En tu terminal, estando en la carpeta *link a la carpeta*, ejecuta:
+En tu terminal, estando en la carpeta [Docker-Compose-Selenium](Docker-Compose-Selenium), ejecuta:
 
 <code>docker compose up --build</code>
 
-Asegúrate de tener Docker Desktop abierto-
+Asegúrate de tener Docker Desktop abierto.
 
 **4. Abre la aplicación en Chrome**
 
@@ -49,15 +49,15 @@ Entra a Docker Desktop, y en el contenedor de Selenium, selecciona abrir la pág
 
 ### ARM64
 
-En esta carpeta, tenemos disponible un *Link al environment*. Para tenerlo en tu computadora y poder correr los notebooks:
+En esta carpeta, tenemos disponible un [environment.yml](environment.yml). Para tenerlo en tu computadora y poder correr los notebooks:
 
 **1. Descarga el repositorio**
 
-Incluyendo el *environment.yml*.
+Incluyendo el [environment.yml](environment.yml).
 
 **2. Crea el conda environment**
 
-Luego, en la terminal, posicionado donde se encuentre el *environment.yml*, ejecuta la siguiente instrucción:
+Luego, en la terminal, posicionado donde se encuentre el [environment.yml](environment.yml), ejecuta la siguiente instrucción:
 
 <code>conda env create -f environment.yml</code>
 
