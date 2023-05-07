@@ -59,7 +59,7 @@ Incluyendo el [environment.yml](environment.yml).
 
 Para eso, abre Google Chrome y abre la pestaña **About Google Chrome**.
 
-![Alt text](imgs/Chrome.png)
+<img src="imgs/Chrome.png" alt="About GC" width="300" height="259">
 
 Ahora, revisa la versión que tengas instalada.
 
