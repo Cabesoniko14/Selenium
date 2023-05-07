@@ -63,7 +63,7 @@ Para eso, abre Google Chrome y abre la pestaña **About Google Chrome**.
 
 Ahora, revisa la versión que tengas instalada.
 
-![Alt text](imgs/Version.png)
+<img src="imgs/Version.png" alt="GC version" width="500" height="300">
 
 **3. Descarga el Chromium para tu versión de Chrome**
 
