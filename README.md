@@ -71,13 +71,13 @@ Entra al siguiente link: https://chromedriver.chromium.org/downloads
 
 Ahora, descarga la versión de Chromium respectiva para tu versión de Chrome. Guarda en algún lugar la versión de Chromium que instalaste.
 
-<img src="imgs/Chromium.png" alt="Chromium install" width="500" height="200">
+<img src="imgs/Chromium.png" alt="Chromium install" width="500" height="150">
 
 **4. Modifica environment.yml**
 
 Entra al environment.yml, y modifica <code> - chromedriver=94.0.4606.61</code> poniendo la versión de Chromium que hayas instalado.
 
-<img src="imgs/Env.png" alt="Environment mod" width="280" height="270">
+<img src="imgs/Env.png" alt="Environment mod" width="280" height="230">
 
 **5. Crea el conda environment**
 
