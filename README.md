@@ -73,11 +73,15 @@ Ahora, descarga la versión de Chromium respectiva para tu versión de Chrome. G
 
 <img src="imgs/Chromium.png" alt="Chromium install" width="500" height="150">
 
-**4. Modifica environment.yml**
+**4. Encuentra la carpeta que se instaló**
 
-Entra al environment.yml, y modifica <code> - chromedriver=94.0.4606.61</code> poniendo la versión de Chromium que hayas instalado.
+Encuentra la carpeta donde se haya instalado tu Chrome Driver.
 
-<img src="imgs/Env.png" alt="Environment mod" width="280" height="230">
+<img src="imgs/Folder.png" alt="Folder" width="280" height="230">
+
+Intenta ejecutar *chromedriver*. En caso de que no te deje y tengas Mac (por ser app descargada de internet), ve a la terminal, posiciónate en la carpeta donde esté tu chrome driver y ejecuta la siguiente instrucción:
+
+<code>xattr -d com.apple.quarantine chromedriver </code>
 
 **5. Crea el conda environment**
 
@@ -89,9 +93,15 @@ Luego, en la terminal, posicionado donde se encuentre el [environment.yml](envir
 
 Para activarlo, corre el comando
 
-<code>conda activate selenium-chrome</code>
+<code>conda activate selenium</code>
   
 O bien, selecciónalo en tu IDE de preferencia (en VS Code en la pestaña de los Kernels).
+
+**7. Modificar ruta de Chrome Driver**
+
+Por último, pon la ruta a la carpeta donde se encuentra tu Chrome Driver cuando inicialices el driver.
+
+<img src="imgs/Folder.png" alt="Folder" width="280" height="230">
 
 ## Tarea
   
