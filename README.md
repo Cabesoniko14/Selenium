@@ -55,13 +55,35 @@ En esta carpeta, tenemos disponible un [environment.yml](environment.yml). Para 
 
 Incluyendo el [environment.yml](environment.yml).
 
-**2. Crea el conda environment**
+**2. Revisa la versión de tu Google Chrome**
+
+Para eso, abre Google Chrome y abre la pestaña **About Google Chrome**
+
+![Alt text](imgs/image_file_name.png)
+
+Ahora, revisa la versión que tengas instalada.
+
+![Alt text](imgs/image_file_name.png)
+
+**3. Descarga el Chromium para tu versión de Chrome**
+
+Entra al siguiente link: https://chromedriver.chromium.org/downloads
+
+Ahora, descarga la versión de Chromium respectiva para tu versión de Chrome. Guarda en algún lugar la versión de Chromium que instalaste.
+
+![Alt text](imgs/image_file_name.png)
+
+**4. Modifica environment.yml**
+
+Entra al environment.yml, y modifica <code> - chromedriver=94.0.4606.61</code> poniendo la versión de Chromium que hayas instalado.
+
+**5. Crea el conda environment**
 
 Luego, en la terminal, posicionado donde se encuentre el [environment.yml](environment.yml), ejecuta la siguiente instrucción:
 
 <code>conda env create -f environment.yml</code>
 
-**3. Activa el environment**
+**6. Activa el environment**
 
 Para activarlo, corre el comando
 
