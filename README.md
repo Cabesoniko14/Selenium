@@ -101,7 +101,7 @@ O bien, selecciónalo en tu IDE de preferencia (en VS Code en la pestaña de los
 
 Por último, pon la ruta a la carpeta donde se encuentra tu Chrome Driver cuando inicialices el driver.
 
-<img src="imgs/Driver_ini.png" alt="Driver initialize" width="350" height="100">
+<img src="imgs/Driver_ini.png" alt="Driver initialize" width="500" height="100">
 
 ## Tarea
   
