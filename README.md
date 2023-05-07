@@ -77,7 +77,7 @@ Ahora, descarga la versión de Chromium respectiva para tu versión de Chrome. G
 
 Encuentra la carpeta donde se haya instalado tu Chrome Driver.
 
-<img src="imgs/Folder.png" alt="Folder" width="280" height="230">
+<img src="imgs/Folder.png" alt="Folder" width="280" height="150">
 
 Intenta ejecutar *chromedriver*. En caso de que no te deje y tengas Mac (por ser app descargada de internet), ve a la terminal, posiciónate en la carpeta donde esté tu chrome driver y ejecuta la siguiente instrucción:
 
