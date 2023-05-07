@@ -7,16 +7,15 @@ Introducción a los conceptos básicos de Selenium para Web Scraping.
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Introduction](#Introducción)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Introduction
+## Introducción
 
-Selenium is a powerful tool for web scraping, as it allows you to interact with websites just like a user would. This project demonstrates how to use Selenium with Python to scrape data from a website.
-
+En este reo
 ## Installation
 
 To run this project, you'll need to have Python installed. You'll also need to install the Selenium library using pip:
