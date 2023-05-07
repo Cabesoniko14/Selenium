@@ -8,7 +8,7 @@ Introducción a los conceptos básicos de Selenium para Web Scraping.
 ## Tabla de contenidos
 
 - [Introduccióon](#Introducción)
-- [Instalaciónon](#Instalación)
+- [Instalación](#Instalación)
   - [Windows/Mac Intel](#Windows)
   - [Mac M1/ARM64](#ARM64)
 - [Tarea](#Tarea)
