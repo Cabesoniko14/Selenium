@@ -1,0 +1,12 @@
+name: selenium-chrome
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+      - selenium
+      - pandas
+      - numpy
+      - matplotlib
+  - chromedriver=version # replace 'version' with the version of Chromedriver you have installed
