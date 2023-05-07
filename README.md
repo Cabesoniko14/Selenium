@@ -25,7 +25,7 @@ Para poder correr Selenium en la computadora, ofrecemos dos opciones: una para a
 
 ### Windows
 
-En la carpeta de *Link a la carpeta de Bingus* se encuentra el ambiente de Docker para poder correr los ejercicios de clase con todas las librerías necesarias instaladas. Los pasos son los siguientes
+En la carpeta de [Docker-Compose-Selenium](Docker-Compose-Selenium) se encuentra el ambiente de Docker para poder correr los ejercicios de clase con todas las librerías necesarias instaladas. Los pasos son los siguientes
 
 **1. Descarga el repositorio**
 
