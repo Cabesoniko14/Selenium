@@ -65,7 +65,7 @@ Luego, en la terminal, posicionado donde se encuentre el *environment.yml*, ejec
 
 Para activarlo, corre el comando
 
-<code>conda activate selenium-chrome</code
+<code>conda activate selenium-chrome</code>
   
 O bien, selecciónalo en tu IDE de preferencia (en VS Code en la pestaña de los Kernels).
 
