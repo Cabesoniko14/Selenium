@@ -1,0 +1,33 @@
+version: '3.8'
+
+services:
+  ## Aplicacion: Nuestro codigo de python
+  selenium_app :
+    # Construye el docker especificado en esa carpeta
+    build: 
+      context: ./selenium_app/
+    container_name: selenium_app
+    # Ejecutar hasta que el servicio exista
+    ports:
+      - '8585:8888'
+    stdin_open: true # docker run -i
+    tty: true # docker run -t
+    # "no": nunca, "always":siempre, "on-failure":lo reinicia si el contenedor devuelve un estado de error,
+    # "unless-stopped": lo reinicia en todos los casos excepto cuando se detiene
+    restart: "on-failure"  
+    volumes:
+      - ./selenium_app:/selenium_app
+
+  chrome:
+    image: selenium/standalone-chrome:latest
+    hostname: chrome
+    privileged: true
+    shm_size: 2g
+    ports:
+      - '4444:4444'
+      - '7900:7900'
+
+volumes:
+# Volumenes que se van a cargar (si no existen se crean)
+  selenium-fdd: # Nombre del volumen
+    driver: local

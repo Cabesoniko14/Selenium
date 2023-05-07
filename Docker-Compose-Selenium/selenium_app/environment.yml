@@ -1,0 +1,12 @@
+channels: 
+  - defaults
+dependencies: 
+  - jupyterlab
+  - notebook
+  - pip
+  - numpy
+  - pandas
+  - pip:
+    - selenium
+    - psycopg2
+    - scrapy
