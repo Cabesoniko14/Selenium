@@ -9,4 +9,4 @@ dependencies:
       - pandas
       - numpy
       - matplotlib
-  - chromedriver=version # replace 'version' with the version of Chromedriver you have installed
+      - ipykernel
