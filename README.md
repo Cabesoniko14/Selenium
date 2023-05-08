@@ -109,6 +109,7 @@ Por último, pon la ruta a la carpeta donde se encuentra tu Chrome Driver cuando
 
 ## Tarea
   
-Para la tarea, creamos un **GitHub Classroom**. Sigue las indicaciones para descargar la tarea.
+Para la tarea, creamos un **GitHub Classroom**. 
+Entra al link para entrar al Classroom: https://classroom.github.com/a/jg3B_4Lu
   
  
